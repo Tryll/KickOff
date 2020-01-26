@@ -32,8 +32,6 @@ if [ ! -f "$PACKAGES" ]; then
 fi
 
 
-
-
 # Look for package
 
 INFO=$(sed -n "/Package: $2$/,/^$/p" $PACKAGES)
