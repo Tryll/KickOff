@@ -76,8 +76,10 @@ sudo rm $P/libCNS* $P/BIG5* $P/IBM* $P/GB* $P/libJISX0213*
 
 # networking
 NET=$ROOT/etc/network
-mkdir -p $NET/if-down.d  $NET/if-post-down.d  $NET/if-pre-up.d  $NET/if-up.d  $NET/interfaces.d
-printf 'source /etc/network/interfaces.d/*\nauto lo\niface lo inet loopback\nallow-hotplug eth0\niface eth0 inet dhcp\n' > $NET/interfaces
+mkdir -p $NET/if-down.d  $NET/if-post-down.d  $NET/if-pre-up.d  $NET/if-up.d
+printf 'auto lo\niface lo inet loopback\nallow-hotplug eth0\niface eth0 inet dhcp\n' > $NET/interfaces
+
+cp apt-get-tiny.sh $ROOT/usr/bin/apt-get
 
 
 #cp setup.sh target/rootfs/
