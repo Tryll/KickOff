@@ -15,7 +15,7 @@ export DISTRO=buster
 
 
 echo Host: Ensuring qemu and binfmt are installed 
-sudo apt-get install -y qemu-user-static binfmt-support busybox-static 
+sudo apt-get install -y qemu-user-static binfmt-support busybox-static squashfs-tools 
 sudo update-binfmts  --enable qemu-arm
 
 ROOT=rootfs
@@ -77,4 +77,6 @@ cp apt-get-tiny.sh $ROOT/usr/bin/apt-get
 
 
 
+# echo Squashing rootfs
+sudo mksquashfs $ROOT tcore.rootfs.xz -b 64K -comp xz -all-root
 
