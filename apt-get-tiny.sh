@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# 
+# apt-get-tiny - debian package manager for embedded devices, by Amund@Tryll
+#
 
 
 if [ "$1" = "extract" ]; then
