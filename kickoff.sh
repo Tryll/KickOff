@@ -1,6 +1,14 @@
 #!/bin/sh
-
-
+#
+# KickOff - Debian rootfs builder for embedded devices, by Amund@Tryll
+#
+#
+# Todo:
+# 1. Prettify -  Input arguments for ARCH / DISTRO
+# 2. Move out host install, check availablility and complain if missing
+# 3. Update apt-get-tiny to fetch dependencies automatically on download
+# 4. Update apt-get-tiny to fetch all packages listed on one command line 
+ 
 
 export ARCH=armhf
 export DISTRO=buster
@@ -12,27 +20,12 @@ sudo update-binfmts  --enable qemu-arm
 
 ROOT=rootfs
 TARGET=$ROOT/bootstrap
+export DEST=$TARGET
 mkdir -p $TARGET
 
 
 echo Target: Downloading debian base packages
-./apt-get-tiny.sh download base-files $TARGET
-./apt-get-tiny.sh download busybox $TARGET
-./apt-get-tiny.sh download dpkg $TARGET
-./apt-get-tiny.sh download libc6 $TARGET
-./apt-get-tiny.sh download libselinux1 $TARGET
-./apt-get-tiny.sh download libpcre3 $TARGET
-./apt-get-tiny.sh download libc-bin $TARGET
-./apt-get-tiny.sh download zlib1g $TARGET
-./apt-get-tiny.sh download liblzma5 $TARGET
-./apt-get-tiny.sh download libbz2-1.0 $TARGET
-./apt-get-tiny.sh download tar $TARGET
-./apt-get-tiny.sh download libacl1 $TARGET
-./apt-get-tiny.sh download libattr1 $TARGET
-./apt-get-tiny.sh download libgcc1 $TARGET
-./apt-get-tiny.sh download gcc-8-base $TARGET
-./apt-get-tiny.sh download coreutils $TARGET
-
+./apt-get-tiny.sh download base-files busybox dpkg coreutils liblzma5 zlib1g libc-bin libselinux1 libbz2-1.0 libacl1 libattr1
 
 # Bootstrap base filesytem
 dpkg -x $TARGET/base-files* $ROOT
@@ -79,18 +72,9 @@ NET=$ROOT/etc/network
 mkdir -p $NET/if-down.d  $NET/if-post-down.d  $NET/if-pre-up.d  $NET/if-up.d
 printf 'auto lo\niface lo inet loopback\nallow-hotplug eth0\niface eth0 inet dhcp\n' > $NET/interfaces
 
+
 cp apt-get-tiny.sh $ROOT/usr/bin/apt-get
 
-
-#cp setup.sh target/rootfs/
-#chroot target/rootfs /bin/busybox sh -c /setup.sh
-#chroot target/rootfs /tmp/postinst
-
-
-
-
-
-#apt-get --download-only install  base-files:armhf dpkg:armhf libselinux1:armhf libpcre3:armhf libc6:armhf busybox:armhf dropbear-bin:armhf dropbear-run udhcpc:armhf
 
 
 
