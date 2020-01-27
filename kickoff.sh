@@ -6,8 +6,6 @@
 # Todo:
 # 1. Prettify -  Input arguments for ARCH / DISTRO
 # 2. Move out host install, check availablility and complain if missing
-# 3. Update apt-get-tiny to fetch dependencies automatically on download
-# 4. Update apt-get-tiny to fetch all packages listed on one command line 
  
 
 export ARCH=armhf
