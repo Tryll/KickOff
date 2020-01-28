@@ -7,7 +7,7 @@ Generated squashfs:<br/>
 rootfs.xz 5525504 bytes<br/>
 
 
-<b>apt-get-light</b> - a Debian package manager for embedded devices. <br/>
+<b>apt-get-light</b> - A Debian package manager for embedded devices. <br/>
 Supports: update, info, resolve, download and install.
 
 Install vim and iotjs:<br/>
