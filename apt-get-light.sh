@@ -1,11 +1,31 @@
 #!/bin/sh
-
-# 
-# APT-GET-LIGHT - a Debian package manager for embedded devices by Tryll
-# Supports: update, info, resolve, download and install
+#	APT-GET-LIGHT - a Debian package manager for embedded devices by Tryll
+#	Supports: update, info, resolve, download and install
 #
-# Todo
-# 1. Replace DISTOR/ARCH logic with /etc/apt/sources.list support, overideable by an APTSource variable
+#	Copyright (c) 2020
+#	Tryll AS <info@tryll.com>
+#	All rights reserved.
+#	
+#	==============================================================================
+#	
+#	This file is part of HexRaysCodeXplorer
+#	HexRaysCodeXplorer is free software: you can redistribute it and/or modify it
+#	under the terms of the GNU General Public License as published by
+# 	the Free Software Foundation, either version 3 of the License, or
+# 	(at your option) any later version.
+# 	This program is distributed in the hope that it will be useful, but
+# 	WITHOUT ANY WARRANTY; without even the implied warranty of
+# 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# 	General Public License for more details.
+# 	You should have received a copy of the GNU General Public License
+# 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#	==============================================================================
+# 
+#
+# 	Todo
+# 	1. Replace DISTOR/ARCH logic with /etc/apt/sources.list support, overideable by an APTSource variable
+#
+#
 
 # DISTRO CHECK:
 if [ -z $DISTRO ] && [ -z $ARCH ]; then
