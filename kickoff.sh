@@ -23,7 +23,7 @@ mkdir -p $TARGET
 
 
 echo Target: Downloading debian base packages
-./apt-get-tiny.sh download base-files busybox dpkg coreutils liblzma5 zlib1g libc-bin libselinux1 libbz2-1.0 libacl1 libattr1
+./apt-get-light.sh download base-files busybox dpkg coreutils liblzma5 zlib1g libc-bin libselinux1 libbz2-1.0 libacl1 libattr1
 
 # Bootstrap base filesytem
 dpkg -x $TARGET/base-files* $ROOT
@@ -71,7 +71,7 @@ mkdir -p $NET/if-down.d  $NET/if-post-down.d  $NET/if-pre-up.d  $NET/if-up.d
 printf 'auto lo\niface lo inet loopback\nallow-hotplug eth0\niface eth0 inet dhcp\n' > $NET/interfaces
 
 
-cp apt-get-tiny.sh $ROOT/usr/bin/apt-get
+cp apt-get-light.sh $ROOT/usr/bin/apt-get
 
 
 
