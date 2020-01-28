@@ -3,18 +3,8 @@
 # 
 # apt-get-tiny - debian package manager for embedded devices, by Amund@Tryll
 #
-
-
-if [ "$1" = "extract" ]; then
-        echo APT: Extracting $2
-
-        ar x $2 data.tar.xz
-        tar xf data.tar.xz -C $DEST
-        rm -f data.tar.xz
-
-        exit 0
-fi
-
+# Todo
+# 1. Replace DISTOR/ARCH logic with /etc/apt/sources.list support, overideable by an APTSource variable
 
 # DISTRO CHECK:
 if [ -z $DISTRO ] && [ -z $ARCH ]; then
