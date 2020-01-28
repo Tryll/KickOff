@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 
-# apt-get-tiny - debian package manager for embedded devices, by Amund@Tryll
+# APT-GET-LIGHT - a Debian package manager for embedded devices by Tryll
 #
 # Todo
 # 1. Replace DISTOR/ARCH logic with /etc/apt/sources.list support, overideable by an APTSource variable
@@ -156,7 +156,7 @@ if [ "$1" = "install" ]; then
 	exit 0
 fi
 
-
+echo APT-GET-LIGHT - a Debian package manager for embedded devices by Tryll
 echo APT: Unknown command $1
 echo APT: Use update, info, resolve, download or install
 
