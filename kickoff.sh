@@ -4,9 +4,8 @@
 #
 #
 # Todo:
-# 1. Prettify -  Input arguments for ARCH / DISTRO
-# 2. up-stream host requirements, check availablility and complain if missing
-# 2b. Check availability of dpkg -x and -e
+# 1. up-stream host requirements, check availablility and complain if missing.
+#    Check availability of dpkg (-e and -x), binfmts status for selected ARCH and mksquashfs
  
 
 export ARCH=armhf
