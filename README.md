@@ -16,10 +16,10 @@ Current distro support: Debian Buster.
 <br/><br/>
 Usage (not there yet):
 1. kickoff.sh build [DISTOR] [ARCH] [Extra Packages]
-1. kickoff.sh build buster armhf iotjs dropbear-run
-2. Customize rootfs directory 
-3. kickoff.sh pack.
-3. Generates squashfs xz compressed
+2. kickoff.sh build buster armhf iotjs dropbear-run
+3. Customize rootfs directory 
+4. kickoff.sh pack.
+5. Generates squashfs xz compressed
 
 </p>
 <br/>
