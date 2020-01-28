@@ -24,7 +24,7 @@
 #	Todo:
 #	1. up-stream host requirements, check availablility and complain if missing.
 #	   Check availability of dpkg (-e and -x), binfmts status for selected ARCH and mksquashfs
-# 2. Reintroduce overlay init script
+#   2. Reintroduce overlay init script
 
 export ARCH=armhf
 export DISTRO=buster
