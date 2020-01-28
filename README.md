@@ -13,13 +13,13 @@ Requirement (order of precedence):
 2. Be Debian package management compatible
 
 Current distro support: Debian Buster.
-
-Goal:
-1. kickoff.sh build [DISTOR] [ARCH] [Extra Packages]
+<br/>
+Goal (not there yet):
+1. kickoff.sh build [DISTOR] [ARCH] [Extra Packages]<br/>
    kickoff.sh build buster armhf iotjs dropbear-run
 
 2. Customize rootfs directory 
-3. kickoff.sh pack
+3. kickoff.sh pack<br/>
    generates squashfs xz compressed.
 
 </p>
