@@ -30,6 +30,6 @@ rootfs.xz 5525504 bytes<br/>
  * Wifi/PTZ Cameras (Hisilicone++)
  * Lawnmowers (Bosch)
  * Routers (Wifi, Wired)
- * System-on-chip devices 64MB > RAM
+ * System-on-chip devices > 64MB RAM
 </p>
 
