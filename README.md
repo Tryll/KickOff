@@ -25,7 +25,7 @@ Install vim and iotjs:<br/>
 </p>
 <br/><br/>
 <p>
-<b>Target devices</b><br/>
+<b>Target devices:</b><br/>
 * Wifi/PTZ Cameras (Hisilicone++)
 * Lawnmowers (Bosch)
 * Routers (Wifi, Wired)
