@@ -20,9 +20,8 @@ Supports: update, info, resolve, download and install.
 Install vim and iotjs:<br/>
 ./apt-get-light.sh install iotjs dropbear-run
 </p>
-<br/><br/>
+<br/>
 <p>
-  
 <b>Generated rootfs</b> - 5,5MB squashfs xz compressed / 16MB uncompressed <br/>
 
 <br/>
