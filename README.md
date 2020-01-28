@@ -26,9 +26,9 @@ Install vim and iotjs:<br/>
 
 <br/>
 <b>Potential devices:</b><br/>
- * Wifi/PTZ Cameras (Hisilicone++)
- * Lawnmowers (Bosch)
- * Routers (Wifi, Wired)
- * System-on-chip devices > 32MB RAM
+  * Wifi/PTZ Cameras (Hisilicone++)
+  * Lawnmowers (Bosch)
+  * Routers (Wifi, Wired)
+  * System-on-chip devices > 32MB RAM
 </p>
 
