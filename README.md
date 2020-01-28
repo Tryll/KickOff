@@ -23,12 +23,13 @@ Install vim and iotjs:<br/>
 <br/>
 <p>
 <b>Generated rootfs</b> - 5,5MB squashfs xz compressed / 16MB uncompressed <br/>
-
+</p>
 <br/>
+<p>
 <b>Potential devices:</b><br/>
-  * Wifi/PTZ Cameras (Hisilicone++)
-  * Lawnmowers (Bosch)
-  * Routers (Wifi, Wired)
-  * System-on-chip devices > 32MB RAM
+* Wifi/PTZ Cameras (Hisilicone++)
+* Lawnmowers (Bosch)
+* Routers (Wifi, Wired)
+* System-on-chip devices > 32MB RAM
 </p>
 
