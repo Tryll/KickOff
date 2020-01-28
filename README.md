@@ -11,9 +11,10 @@ Generated squashfs:<br/>
 rootfs.xz 5525504 bytes<br/>
 
 <b>Requirements</b>
-1. Balanced on light-weight / usable
+1. Balance light-weight vs usable
 2. Be Debian package management compatible
 </p>
+<br/><br/>
 <p>
 <b>apt-get-light</b> - A Debian package manager for embedded devices. <br/>
 Supports: update, info, resolve, download and install.
