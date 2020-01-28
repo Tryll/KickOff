@@ -3,7 +3,8 @@
 
 <p>
 <b>KickOff</b> - A minimal footprint rootfs bootstrapper for embedded devices. <br/>
-
+Generated rootfs - 5,5MB squashfs xz compressed / 16MB uncompressed <br/>
+<br/>
 Debian rootfs based on busybox, overlay (default tmpfs) with dpkg package management.<br/>
 Includes a custom light-weight "apt-get" utility for Debian repository integration and package dependency walking.<br/>
 
@@ -20,16 +21,12 @@ Supports: update, info, resolve, download and install.
 Install vim and iotjs:<br/>
 ./apt-get-light.sh install iotjs dropbear-run
 </p>
-<br/>
-<p>
-<b>Generated rootfs</b> - 5,5MB squashfs xz compressed / 16MB uncompressed <br/>
-</p>
-<br/>
+
 <p>
 <b>Potential devices:</b><br/>
-* Wifi/PTZ Cameras (Hisilicone++)
-* Lawnmowers (Bosch)
-* Routers (Wifi, Wired)
-* System-on-chip devices > 32MB RAM
+ * Wifi/PTZ Cameras (Hisilicone++)
+ * Lawnmowers (Bosch)
+ * Routers (Wifi, Wired)
+ * System-on-chip devices > 32MB RAM
 </p>
 
