@@ -21,7 +21,7 @@ Supports: update, info, resolve, download and install.
 Install vim and iotjs:<br/>
 ./apt-get-light.sh install iotjs dropbear-run
 </p>
-
+<br/>
 <p>
 <b>Potential devices:</b><br/>
 <ul>
