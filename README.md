@@ -15,7 +15,7 @@ Requirement (order of precedence):
 </p>
 <br/>
 <p>
-<b>apt-get-light</b> - A Debian package manager for embedded devices. <br/>
+<b>apt-get-light</b> - A light-weight Debian package manager for embedded devices. <br/>
 Supports: update, info, resolve, download and install.
 
 Install vim and iotjs:<br/>
