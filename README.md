@@ -18,8 +18,8 @@ Requirement (order of precedence):
 <b>apt-get-light</b> - A light-weight Debian package manager for embedded devices. <br/>
 Supports: update, info, resolve, download and install.
 
-Install vim and iotjs:<br/>
-./apt-get-light.sh install iotjs dropbear-run
+Install vim and iotjs: (when renamed)<br/>
+apt-get install iotjs dropbear-run
 </p>
 <br/>
 <p>
