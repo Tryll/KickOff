@@ -23,7 +23,7 @@ Install vim and iotjs:<br/>
 <br/><br/>
 <p>
   
-<b>Generated squashfs</b> - 5,5MB xz compressed / 16MB uncompressed <br/>
+<b>Generated rootfs</b> - 5,5MB squashfs xz compressed / 16MB uncompressed <br/>
 
 <br/>
 <b>Potential devices:</b><br/>
