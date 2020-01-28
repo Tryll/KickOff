@@ -11,11 +11,8 @@ Requirement (order of precedence):
 1. Balance light-weight vs usable
 2. Be Debian package management compatible
 
-Generated squashfs:<br/>
-rootfs.xz 5525504 bytes<br/>
-
 </p>
-<br/><br/>
+<br/>
 <p>
 <b>apt-get-light</b> - A Debian package manager for embedded devices. <br/>
 Supports: update, info, resolve, download and install.
@@ -25,11 +22,15 @@ Install vim and iotjs:<br/>
 </p>
 <br/><br/>
 <p>
-<b>Target devices:</b><br/>
-* Wifi/PTZ Cameras (Hisilicone++)
-* Lawnmowers (Bosch)
-* Routers (Wifi, Wired)
-* Z-Wave Chipsets
-* system-on-chip devices
+  
+<b>Generated squashfs:</b><br/>
+rootfs.xz 5525504 bytes<br/>
+<br/>
+<b>Potential devices:</b><br/>
+ * Wifi/PTZ Cameras (Hisilicone++)
+ * Lawnmowers (Bosch)
+ * Routers (Wifi, Wired)
+ * Z-Wave Chipsets
+ * system-on-chip devices
 </p>
 
