@@ -11,9 +11,9 @@ Includes a custom light-weight "apt-get" utility for Debian repository integrati
 Requirement (order of precedence):
 1. Balance light-weight vs usable
 2. Be Debian package management compatible
-
-Current distro support: Debian Buster.
 <br/>
+Current distro support: Debian Buster.
+<br/><br/>
 Goal (not there yet):
 1. kickoff.sh build [DISTOR] [ARCH] [Extra Packages]<br/>
    kickoff.sh build buster armhf iotjs dropbear-run
