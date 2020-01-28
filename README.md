@@ -10,7 +10,7 @@ Includes a custom light-weight "apt-get" utility for Debian repository integrati
 Generated squashfs:<br/>
 rootfs.xz 5525504 bytes<br/>
 
-Requirement:
+Requirement (order of precedence):
 1. Balance light-weight vs usable
 2. Be Debian package management compatible
 </p>
