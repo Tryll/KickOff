@@ -12,6 +12,7 @@ Requirement (order of precedence):
 1. Balance light-weight vs usable
 2. Be Debian package management compatible
 
+Current distro support: Debian Buster.
 </p>
 <br/>
 <p>
