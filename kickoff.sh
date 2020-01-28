@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# KickOff - Debian rootfs builder for embedded devices, by Amund@Tryll
+#	KickOff - Debian rootfs builder for embedded devices, by Amund@Tryll
 #
 #	Copyright (c) 2020
 #	Tryll AS <info@tryll.com>
@@ -21,9 +21,9 @@
 # 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #	==============================================================================
 # 
-# Todo:
-# 1. up-stream host requirements, check availablility and complain if missing.
-#    Check availability of dpkg (-e and -x), binfmts status for selected ARCH and mksquashfs
+#	Todo:
+#	1. up-stream host requirements, check availablility and complain if missing.
+#	   Check availability of dpkg (-e and -x), binfmts status for selected ARCH and mksquashfs
  
 
 export ARCH=armhf
