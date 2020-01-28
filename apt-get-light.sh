@@ -2,6 +2,7 @@
 
 # 
 # APT-GET-LIGHT - a Debian package manager for embedded devices by Tryll
+# Supports: update, info, resolve, download and install
 #
 # Todo
 # 1. Replace DISTOR/ARCH logic with /etc/apt/sources.list support, overideable by an APTSource variable
