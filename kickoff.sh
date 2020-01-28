@@ -6,6 +6,7 @@
 # Todo:
 # 1. Prettify -  Input arguments for ARCH / DISTRO
 # 2. up-stream host requirements, check availablility and complain if missing
+# 2b. Check availability of dpkg -x and -e
  
 
 export ARCH=armhf
