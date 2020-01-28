@@ -11,14 +11,14 @@ Includes a custom light-weight "apt-get" utility for Debian repository integrati
 Requirement (order of precedence):
 1. Balance light-weight vs usable
 2. Be Debian package management compatible
-<br/>
-Current distro support: Debian Buster.
+
 <br/><br/>
 Usage (not there yet):<br/>
 1. ./kickoff.sh build buster armhf iotjs dropbear-run <br/>
 2. Customize rootfs<br/>
 3. ./kickoff.sh pack<br/>
-
+<br/>
+Current tested distro: Debian Buster.
 </p>
 <br/>
 <p>
