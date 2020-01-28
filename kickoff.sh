@@ -5,7 +5,7 @@
 #
 # Todo:
 # 1. Prettify -  Input arguments for ARCH / DISTRO
-# 2. Move out host install, check availablility and complain if missing
+# 2. up-stream host requirements, check availablility and complain if missing
  
 
 export ARCH=armhf
