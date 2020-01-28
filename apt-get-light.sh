@@ -1,4 +1,5 @@
 #!/bin/sh
+#
 #	APT-GET-LIGHT - a Debian package manager for embedded devices by Tryll
 #	Supports: update, info, resolve, download and install
 #
