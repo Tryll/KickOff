@@ -25,7 +25,7 @@
 #
 # 	Todo
 # 	1. Replace DISTOR/ARCH logic with /etc/apt/sources.list support, overideable by an APTSource variable
-#
+#	2. Skip redownloading files that pass md5sum
 #
 
 # DISTRO CHECK:
