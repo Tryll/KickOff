@@ -9,7 +9,7 @@ Generated squashfs:<br/>
 rootfs.xz 5525504 bytes<br/>
 
 <b>Requirements</b>
-1. Edge it on light-weight / usable
+1. Balanced on light-weight / usable
 2. Be Debian package management compatible
 
 
