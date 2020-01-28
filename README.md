@@ -7,6 +7,6 @@ Generated squashfs:<br/>
 rootfs.xz 5525504 bytes<br/>
 
 
-<b>APT-GET-LIGHT</b> - a Debian package manager for embedded devices by Tryll.
+<b>apt-get-light</b> - a Debian package manager for embedded devices by Tryll.
 Supports: update, info, resolve, download and install.
 
