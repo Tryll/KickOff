@@ -14,7 +14,7 @@ Requirement (order of precedence):
 <br/>
 Current distro support: Debian Buster.
 <br/><br/>
-Usage (not there yet):<br/>
+Usage (not there yet):
 1. kickoff.sh build [DISTOR] [ARCH] [Extra Packages]
 1. kickoff.sh build buster armhf iotjs dropbear-run
 2. Customize rootfs directory 
