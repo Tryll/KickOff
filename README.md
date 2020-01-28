@@ -11,7 +11,6 @@ Requirement (order of precedence):
 1. Balance light-weight vs usable
 2. Be Debian package management compatible
 
-
 Generated squashfs:<br/>
 rootfs.xz 5525504 bytes<br/>
 
@@ -23,5 +22,14 @@ Supports: update, info, resolve, download and install.
 
 Install vim and iotjs:<br/>
 ./apt-get-light.sh install iotjs dropbear-run
+</p>
+<br/><br/>
+<p>
+<b>Target devices</b><br/>
+* Wifi/PTZ Cameras (Hisilicone++)
+* Lawnmowers (Bosch)
+* Routers (Wifi, Wired)
+* Z-Wave Chipsets
+* system-on-chip devices
 </p>
 
