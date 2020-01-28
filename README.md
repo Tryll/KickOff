@@ -1,6 +1,6 @@
 <b>KickOff</b> - A minimal footprint rootfs bootstrapper for embedded devices. <br/>
 
-Debian rootfs based on busybox, coreutils with dpkg package management.<br/>
+Debian rootfs based on busybox, overlay (default tmpfs) with dpkg package management.<br/>
 Includes a custom light-weight "apt-get" utility for Debian repository integration and package dependency walking.<br/>
 
 Generated squashfs:<br/>
