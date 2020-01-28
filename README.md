@@ -11,6 +11,6 @@ rootfs.xz 5525504 bytes<br/>
 Supports: update, info, resolve, download and install.
 
 Install vim and iotjs:<br/>
-./apt-get-light.sh install vim iotjs
+./apt-get-light.sh install iotjs dropbear-run
 
 
