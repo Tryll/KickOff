@@ -1,4 +1,4 @@
-<p><a href="http://www.gnu.org/licenses/gpl-3.0" rel="nofollow"><img src="https://camo.githubusercontent.com/bf135a9cea09d0ea4bba410582c0e70ec8222736/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d47504c25323076332d626c75652e737667" alt="License: GPL v3" data-canonical-src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" style="max-width:100%;"></a>
+<p><a href="#" rel="nofollow"><img alt="License: Apache 2.0" data-canonical-src="https://img.shields.io/badge/licence-Apache%202.0-brightgreen.svg?style=flat" style="max-width:100%;"></a>
 </p>
 
 <p>
