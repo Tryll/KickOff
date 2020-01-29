@@ -9,7 +9,7 @@ Debian rootfs based on busybox, overlay (default tmpfs) with dpkg package manage
 Includes a custom light-weight "apt-get" utility for Debian repository integration and package dependency walking.<br/>
 
 Requirement (order of precedence):
-1. Balance light-weight vs usable
+1. Prefer light-weight over compliant
 2. Be Debian package management compatible
 <br/>
 Usage (not there yet):<br/>
