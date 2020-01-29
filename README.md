@@ -1,4 +1,4 @@
-<p><a href="#" rel="nofollow"><img alt="License: Apache 2.0" src="https://img.shields.io/badge/licence-Apache%202.0-brightgreen.svg?style=flat" style="max-width:100%;"></a><a href="#" rel="nofollow"><img alt="Status: In-Development" src=https://img.shields.io/badge/status-in%E2%80%93development-blue.svg?style=flat" style="max-width:100%;"  /></a>
+<p><a href="#" rel="nofollow"><img alt="License: Apache 2.0" src="https://img.shields.io/badge/licence-Apache%202.0-brightgreen.svg?style=flat" style="max-width:100%;"></a><a href="#" rel="nofollow" style="padding-left:5px;"><img alt="Status: In-Development" src=https://img.shields.io/badge/status-in%E2%80%93development-blue.svg?style=flat" style="max-width:100%;" /></a>
 </p>
 
 <p>
