@@ -18,7 +18,7 @@ Usage (not there yet):<br/>
 2. Customize rootfs<br/>
 3. ./kickoff.sh pack<br/>
 <br/>
-Current tested distro: Debian Buster.
+Target distro: Debian Buster.
 </p>
 <br/>
 <p>
