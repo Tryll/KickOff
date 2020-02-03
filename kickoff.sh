@@ -35,7 +35,7 @@ sudo apt-get install -y qemu-user-static binfmt-support busybox-static squashfs-
 sudo update-binfmts  --enable qemu-arm
 
 ROOT=rootfs
-TARGET=$ROOT/bootstrap
+TARGET=$ROOT/kickoff
 export DEST=$TARGET
 mkdir -p $TARGET
 
